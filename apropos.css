@@ -1,6 +1,14 @@
+
 h1{
     font-family: 'Amiri', serif;
+    color: #303030;
 }
+
 p{
     font-family: 'Maitree', serif;
+    color: #303030;
+   width: 20em; 
+   text-align: justify;
+ 
 }
+
