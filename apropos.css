@@ -1,14 +1,32 @@
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px;
+}
+
+.img{
+    grid-area: 1 / 1 / 2 / 2;
+
+}
+img{width: 100%;}
+.text{
+    margin-left: 35px;
+    margin-top: 50px;
+    grid-area: 1 / 2 / 2 / 3;
+}
 
 h1{
     font-family: 'Amiri', serif;
     color: #303030;
+    
 }
 
 p{
     font-family: 'Maitree', serif;
     color: #303030;
-   width: 20em; 
+   width: 25em; 
    text-align: justify;
+   font-weight: bold;
  
 }
 
