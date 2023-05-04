@@ -1,0 +1,32 @@
+[
+    {
+        "name":"",
+        "image":"/IMG/blackcoat.jpg",
+        "prix":"1500 E",
+        "matière":""
+    },
+    {
+        "name":"",
+        "image":"IMG/blackSuit.jpg",
+        "prix":"200 E",
+        "matière":""
+    },
+    {
+        "name":"",
+        "image":"IMG/blackTrousers.jpg",
+        "prix":"400E",
+        "matière":""
+    },
+    {
+        "name":"",
+        "image":"IMG/blueCoat.jpg",
+        "prix":"500 E",
+        "matière":""
+    },
+    {
+        "name":"",
+        "image":"IMG/blueShirt.jpg",
+        "prix":"800 E",
+        "matière":""
+    }
+]
