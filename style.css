@@ -103,4 +103,8 @@ footer  {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: #111;
+    color:blue ;
   }
