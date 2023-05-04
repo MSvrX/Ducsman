@@ -127,16 +127,20 @@
 /* FOOTER */
 footer  {
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
-    color:green ;
-    list-style: none;
     display: flex;
     justify-content: space-around;
-    margin-left: 30%;
+    margin-left: 20%;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 10%;
     
     
+  }
+
+  footer ul li{
+    list-style: none;
+    text-decoration: none;
+    color: #303030;
   }
 
   .effet1:hover{
