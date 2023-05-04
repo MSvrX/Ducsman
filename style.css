@@ -119,14 +119,27 @@
 
 /* FOOTER */
 footer  {
-    
+    background-color: pink;
+    color:green ;
     list-style: none;
     display: flex;
     justify-content: space-around;
     margin-left: 30%;
-    margin-top: 10%;
-    background-color: #111;
-    color:blue ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    
+    
+  }
+
+  .effet1:hover{
+    transform: scale(0.95);
+  }
+  .effet2:hover{
+    transform: scale(0.95);
+  }
+  .effet3:hover{
+    transform: scale(0.95);
   }
 
 
