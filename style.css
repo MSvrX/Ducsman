@@ -185,7 +185,7 @@ footer {
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   padding: 50px;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 50px;
   font-family: "Maitree", serif;
 }
@@ -215,13 +215,13 @@ footer a:hover {
 }
 
 .effet1:hover {
-  transform: scale(0.95);
+  transform: scale(0.9);
 }
 .effet2:hover {
-  transform: scale(0.95);
+  transform: scale(0.9);
 }
 .effet3:hover {
-  transform: scale(0.95);
+  transform: scale(0.9);
 }
 
 /* Sidebar */

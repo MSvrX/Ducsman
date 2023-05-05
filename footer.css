@@ -6,8 +6,10 @@ body{
 
 
 .titre{
+    color: #303030 ;
+    text-decoration: underline;
     font-family: 'Italianno', cursive;
-    font-size: 40px;
+    font-size: 50px;
     justify-content: center;
     text-align: center;
     margin-top: 5%;
@@ -54,7 +56,11 @@ body{
     color: #303030;
     font-size: 18px;
     font-family: 'Maitree', serif;
-    line-height: 25px;
+    line-height: 50px;
+}
+
+.soulignement_titre{
+    text-decoration: underline;
 }
 
  
@@ -94,52 +100,51 @@ body{
   
 
 
- /* Sidebar */
- html, body {
-    margin: 0;
-    padding: 0;
+/* Sidebar */
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar img {
-    width: 100%;
+  width: 100%;
 }
 
 .sidebar ul {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 5px 20px;
-    box-sizing: border-box;
-    width: 250px;
-    height: 100vh;
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 100vh;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 .sidebar ul li {
-    list-style: none;
+  list-style: none;
 }
 .sidebar ul li a {
-    display: block;
-    color: #303030;
-    padding: 5px;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-size:35px;
-    font-family: 'Amiri', serif;
- }
+  display: block;
+  color: #303030;
+  padding: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: "Amiri", serif;
+}
 
 .social-logo {
-    display: flex;
-    padding: 50px;
+  display: flex;
+  padding: 50px;
 }
 
 .social-logo svg {
-    width: 50%;
+  width: 50%;
 }
 
 .social-logo svg:first-child() {
-    width: 100%;
+  width: 100%;
 }
-
-
