@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
+
 #rgpd-popup {
   position: fixed;
   top: 20%;
@@ -34,7 +36,6 @@
   text-decoration: underline;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
 
 /* main grid */
 * {
@@ -65,11 +66,13 @@ main img {
   padding: 10px 10px 10px 200px;
   display: grid;
   grid-template-columns: repeat(auto-fill, 250px);
-  grid-auto-rows: 300px;
+  grid-auto-rows: 400px;
   grid-gap: 20px;
+  grid-row-gap: 100px;
   justify-content: center;
 }
 .profil-card {
+  
   position: relative;
   overflow: hidden;
   cursor: pointer;
