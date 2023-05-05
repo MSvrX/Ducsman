@@ -1,32 +1,62 @@
 [
     {
-        "name":"",
+        "name":"Veste noir",
         "image":"/IMG/blackcoat.jpg",
         "prix":"1500 E",
-        "matière":""
+        "matière":"coton"
     },
     {
-        "name":"",
+        "name":"costume homme",
         "image":"IMG/blackSuit.jpg",
         "prix":"200 E",
-        "matière":""
+        "matière":"69% polyester 29% viscose"
     },
     {
-        "name":"",
+        "name":"pantalon homme",
         "image":"IMG/blackTrousers.jpg",
         "prix":"400E",
-        "matière":""
+        "matière":"69% coton 29% viscose "
     },
     {
-        "name":"",
+        "name":"Veste de costume Amaury slim - bleu",
         "image":"IMG/blueCoat.jpg",
         "prix":"500 E",
-        "matière":""
+        "matière":"69% polyester 29% viscose "
     },
     {
-        "name":"",
+        "name":"chemise homme",
         "image":"IMG/blueShirt.jpg",
+        "prix":"60E",
+        "matière":"29% polyester 69% viscose "
+    },
+    {
+        "name":"costume homme",
+        "image":"IMG/greySuit.jpg",
+        "prix":"750 E",
+        "matière":"69% polyester 29% viscose "
+    },
+    {
+        "name":"costume homme",
+        "image":"IMG/greyCoat.jpg",
+        "prix":"1000 E",
+        "matière":"69% polyester 29% viscose "
+    },
+    {
+        "name":"costume homme",
+        "image":"IMG/greySquareSuit.jpg",
         "prix":"800 E",
-        "matière":""
+        "matière":"69% polyester 29% viscose "
+    },
+    {
+        "name":"chemise homme",
+        "image":"IMG/whiteShirt.jpg",
+        "prix":"80 E",
+        "matière":"69% polyester 29% viscose "
+    },
+    {
+        "name":"costume homme",
+        "image":"IMG/whiteSuit.jpg",
+        "prix":"600 E",
+        "matière":"69% polyester 29% viscose "
     }
 ]

@@ -39,13 +39,24 @@
   box-sizing: border-box;
   
 }
-/* .main{
-  display: flex;
-  flex-wrap: nowrap;
-} */
-body{
-  background-color: #303030;
+a{
+  text-decoration: none;
 }
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+main img{
+  border-bottom: 2px white solid;
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+
 .gallery{
   max-width: 1000px;
   margin: 0 auto;
@@ -55,18 +66,19 @@ body{
   grid-auto-rows: 300px;
   grid-gap: 20px;
   justify-content: center;
-  list-style-type: none;
+
 }
 .profil-card{
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  border: 1px solid #111;
+  border: 3px solid #111;
   transition: transform 0.4s ease-out;
+
 }
 .profil-image{
   width: 100%;
-  height: 130%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -82,21 +94,23 @@ body{
   transform: translateY(100%);
   transition: transform 0.3s ease-out;
 }
-.info-prix{
-  /* border-radius: 0 0 0 10px; */
+/* .info-prix{
+  border-radius: 50%; 
   position: absolute;
-  right: 0;
+  right:10px;
+  top: 40px; 
   padding: 10px;
-  background-color:#111 ;
+  background-color:#303030;
   border-bottom: 1px solid #999;
   border-left: 1px solid #999;
   color: #dab651;
   text-align: center;
   transform: translateY(-110%);
   transition: transform 0.3s ease-out;
-}
+} */
 .matière{
   position: absolute;
+  width: 100%;
   left: 0; 
   padding: 10px;
   background-color:#111 ;
@@ -123,10 +137,10 @@ body{
 
   transform: translate(0);
 }
-.profil-card:hover .info-prix{
+/* .profil-card:hover .info-prix{
 
   transform: translate(0);
-}
+} */
 .profil-card:hover .matière{
   transform: translate(0);
 }
@@ -147,14 +161,21 @@ body{
   
   
 }
-@media (max-width: 630px) {
+@media (max-width: 389px) {
   .gallery{
-      grid-template-columns: minmax(auto,450px);
+      padding: 0;
+      grid-template-columns: minmax(auto,100px);
       grid-auto-rows: auto;
       grid-gap: 50px;
-  
-
   }
+  .sidebar{
+    display: none;
+  }
+  .image_top,
+  .matière{
+    display: none;
+  }
+
   
 }
 
