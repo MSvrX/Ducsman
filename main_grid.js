@@ -1,5 +1,15 @@
 
-
+window.onload = function() {
+    if (localStorage.getItem('rgpd-accepte') === null) {
+      document.getElementById('rgpd-popup').style.display = 'block';
+    }
+  }
+  
+  document.getElementById('accepter').addEventListener('click', function() {
+    localStorage.setItem('rgpd-accepte', 'oui');
+    document.getElementById('rgpd-popup').style.display = 'none';
+  });
+  
 
 
 
