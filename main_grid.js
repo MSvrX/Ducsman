@@ -1,14 +1,9 @@
-const loader = document.querySelector('.loader'); //variable loading
+
 const card =document.querySelectorAll("gallery");
 
 
 
 
-// ------------loader----------------
-window.addEventListener('load',() =>{
-  loader.classList.add('fondu-out')
-})
-//-----------------------------------
 
 // -----------------POP UP COOKIES-------------------
 window.onload = function() {
