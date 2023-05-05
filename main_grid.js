@@ -1,3 +1,15 @@
+const loader = document.querySelector('.loader'); //variable loading
+const card =document.querySelectorAll("gallery");
+
+
+
+
+// ------------loader----------------
+window.addEventListener('load',() =>{
+  loader.classList.add('fondu-out')
+})
+//-----------------------------------
+
 
 window.onload = function() {
     if (localStorage.getItem('rgpd-accepte') === null) {
@@ -10,7 +22,6 @@ window.onload = function() {
     document.getElementById('rgpd-popup').style.display = 'none';
   });
   
-
 
 
 
