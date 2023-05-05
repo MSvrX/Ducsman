@@ -5,7 +5,7 @@ const card =document.querySelectorAll("gallery");
 
 
 
-
+// -----------------POP UP COOKIES-------------------
 window.onload = function() {
     if (localStorage.getItem('rgpd-accepte') === null) {
       document.getElementById('rgpd-popup').style.display = 'block';
@@ -19,6 +19,7 @@ window.onload = function() {
   
 
 
+  
 
 // -------------------creation des carte ------------------------
 function newCard(name, image, prix, matière) {
