@@ -1,5 +1,5 @@
 body{
-    background-color:white ;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 main{
@@ -13,19 +13,23 @@ main{
 
 
 .titre{
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
     justify-content: center;
     text-align: center;
     margin-top: 15%;
     margin-right: 21.5%;
     margin-left: 21.5%;
+    
 }
 
 p {
     justify-content: space-around;
     margin-top: 100px;
-    color: blue;
-    font-size: 15px;
-    font-family:  Maitree light;
+    color: #303030;
+    font-size: 18px;
+    font-family: 'Maitree', serif;
+    line-height: 25px;
 }
 
  /* Sidebar */
