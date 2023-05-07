@@ -3,6 +3,29 @@
 
 /* POP UP COOKIES*/
 
+/* .cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: none;
+  z-index: 9999;
+}
+
+.cookie-banner p {
+  margin: 0;
+}
+
+#accept-cookies-btn {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+} */
 
 #rgpd-popup {
   position: fixed;
