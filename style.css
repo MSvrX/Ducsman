@@ -247,6 +247,9 @@ footer a {
 footer a:hover {
   color: #007bff;
 }
+.mon_site{
+  font-size: 12px;
+}
 
 .effet1:hover {
   transform: scale(0.9);
