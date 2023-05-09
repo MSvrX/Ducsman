@@ -119,7 +119,7 @@ main img {
 
 .profil-info {
   position: absolute;
-  bottom: 0;
+  bottom: 35px;
   width: 100%;
   padding: 10px;
   background-color: #111;
@@ -162,9 +162,9 @@ main img {
   color: wheat;
 }
 
-.profil-card:hover .profil-info {
+/* .profil-card:hover .profil-info {
   transform: translate(0);
-}
+} */
 
 .profil-card:hover .matière {
   transform: translate(0);
@@ -246,7 +246,11 @@ footer a:hover {
 }
 
 /* Sidebar */
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .sidebar img {
   width: 100%;
