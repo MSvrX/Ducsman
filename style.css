@@ -121,7 +121,7 @@ main img.image_top{
 
 .profil-info {
   position: absolute;
-  bottom: 35px;
+  bottom: 0;
   width: 100%;
   padding: 10px;
   background-color: #111;
@@ -166,9 +166,9 @@ main img.image_top{
   font-family: 'Amiri', serif;
 }
 
-/* .profil-card:hover .profil-info {
+.profil-card:hover .profil-info {
   transform: translate(0);
-} */
+}
 
 .profil-card:hover .matière {
   transform: translate(0);
