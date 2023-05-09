@@ -114,9 +114,10 @@ main{
 }
 
 .sous-titre, .titre {
+    font-family: 'Amiri', serif;
     text-decoration: underline;
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .espace{
