@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* POP UP COOKIES*/
 
@@ -156,19 +161,11 @@ main img {
   font-weight: 600;
   color: wheat;
 }
-.profil-work {
-  font-size: 16px;
-  font-weight: 500;
-  font-style: italic;
-  color: #dab651;
-}
+
 .profil-card:hover .profil-info {
   transform: translate(0);
 }
-/* .profil-card:hover .info-prix{
 
-  transform: translate(0);
-} */
 .profil-card:hover .matière {
   transform: translate(0);
 }
@@ -249,11 +246,7 @@ footer a:hover {
 }
 
 /* Sidebar */
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
+
 
 .sidebar img {
   width: 100%;
