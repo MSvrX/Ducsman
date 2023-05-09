@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,400;1,700&display=swap'); /* font-family: 'Amiri', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap'); /* font-family: 'Italianno', cursive; */
 
 *{
   margin: 0;
@@ -258,45 +259,106 @@ body {
   padding: 0;
 }
 
-.sidebar img {
-  width: 100%;
-}
-
-.sidebar ul {
+.sidebar-menu {
   position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 5px 20px;
-  box-sizing: border-box;
   width: 250px;
   height: 100vh;
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
-}
-
-.sidebar ul li {
   list-style: none;
-}
-.sidebar ul li a {
-  display: block;
-  color: #303030;
-  padding: 5px;
   box-sizing: border-box;
+}
+
+.sidebar-menu a {
   text-decoration: none;
-  font-size: 35px;
-  font-family: "Amiri", serif;
+  color: #303030;
 }
 
-.social-logo {
-  display: flex;
-  padding: 50px;
+/* LOGO */
+.logo {
+  margin-left: 40px;
+  padding-top: 20px;
 }
 
-.social-logo svg {
-  width: 50%;
+.logo-title {
+  font-family: 'Italianno', cursive;
+  font-weight: 500;
+  font-size: 55px;
 }
 
-.social-logo svg:first-child() {
+.logo-subtitle {
+  margin-top: -19px;
+  font-family: 'Amiri', serif;
+}
+
+/* ITEM LIST */
+.item-list {
+  margin-top: 50px;
+}
+
+.item-list li{
+  padding: 30px;
+  font-family: 'Amiri', serif;
+  font-size:35px;
+  box-sizing: border-box;
+  display: block;
+}
+.item-list li a {
+position: relative;
+}
+
+.item-list li a:before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 3px;
   width: 100%;
+  transition: .3s;
+  border-radius: 25px;
+  transform: scaleX(0);
+  background: #303030;
 }
+
+.item-list li a:hover:before {
+  transform: scaleX(1);
+}
+
+/* GOOGLE MAP */
+.google-map-pin {
+  margin-left: 20px;
+}
+
+/* RESEAUX SOCIAUX */
+.social-links {
+  display: flex;
+}
+
+.social-links svg {
+  margin-top: 50px;
+}
+
+.social-links li:first-child {
+  width: 32px;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.social-links li:nth-child(2) {
+  width: 20px;
+  padding: 20px;
+}
+
+.social-links li:last-child {
+  width: 30px;
+  padding: 20px;
+}
+
+/* media queries */
+
+@media screen and (min-width:768px) {
+
+}
+
+
+
 /* -----------------loading------------------- */
