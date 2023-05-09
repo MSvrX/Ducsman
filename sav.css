@@ -114,12 +114,46 @@ main{
 }
 
 .sous-titre, .titre {
+    font-family: 'Amiri', serif;
     text-decoration: underline;
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .espace{
     line-height: 30px;
     font-size: 19px;
+}
+
+.email-link {
+  color: rgb(124, 124, 240);
+  text-decoration: none;
+  position: relative;
+}
+
+.email-link:before {
+  content: "\f0e0";
+  font-family: 'Maitree', serif;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.email-link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.email-link:hover:before {
+  text-align: center;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: -4%;
+  content: "Contactez-nous";
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  color: #FFFFFF;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
 }
