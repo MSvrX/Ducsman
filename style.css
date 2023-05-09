@@ -227,9 +227,14 @@ main a.encre{
   .sidebar {
     display: none;
   }
+  .profil-info,
   .image_top,
   .matière {
     display: none;
+  }
+  .logo-cart{
+    top: 2%; 
+  right: 2%;
   }
 }
 
