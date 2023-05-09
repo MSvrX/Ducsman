@@ -9,7 +9,11 @@
 
 /* POP UP COOKIES*/
 
-/* .cookie-banner {
+
+
+
+
+.cookie-banner {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -31,9 +35,9 @@
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-} */
+}
 
-#rgpd-popup {
+/* #rgpd-popup {
   position: fixed;
   top: 20%;
   left: 50%;
@@ -67,7 +71,7 @@
 #rgpd-popup a {
   color: #007bff;
   text-decoration: underline;
-}
+} */
 
 
 /* main grid */
@@ -120,7 +124,7 @@ main img {
 
 .profil-info {
   position: absolute;
-  bottom: 0;
+  bottom: 35px;
   width: 100%;
   padding: 10px;
   background-color: #111;
@@ -163,9 +167,9 @@ main img {
   color: wheat;
 }
 
-.profil-card:hover .profil-info {
+/* .profil-card:hover .profil-info {
   transform: translate(0);
-}
+} */
 
 .profil-card:hover .matière {
   transform: translate(0);
@@ -247,7 +251,11 @@ footer a:hover {
 }
 
 /* Sidebar */
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .sidebar-menu {
   position: fixed;
