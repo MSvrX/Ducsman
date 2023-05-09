@@ -7,25 +7,34 @@ h1 {
     object-fit: cover;
     width: 100%;
     max-height: 500px;
+    padding-left: 250px;
 }
 
 
 .grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 50px 50px 30px 20px 30px 20px 20px;
+    grid-template-rows: 90px 80px 50px 40px 50px 40px 40px;
     margin: 1%;
     gap: 1%;
 }
 
 .image {
+    margin-left: 250px;
     border: 1px solid black;    
     grid-area: 1 / 1 / 2 / 2;
-    width: 30%;
+    width: 50%;
 }
 .titre {
     grid-area: 1 / 2 / 2 / 3;
+    font-size: 3em;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 
+.infoProduit {
+    grid-area: 2 / 2 / 3 / 3;
+    padding-top: 2%;
 }
 
 .price {
@@ -46,4 +55,8 @@ h1 {
 
 .descriptionProduit {
     margin-top: 15%;
+    padding-left: 300px;
+}
+.hidden {
+    display: none;
 }
