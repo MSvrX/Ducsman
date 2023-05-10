@@ -23,7 +23,7 @@ h2.titleProduct {
     align-items: center;
     font-size: 2em;
     background-color: black;
-    color: aliceblue;
+    color: #FFFFFF;
     font-family: Amiri;
 }
 div.titleProduct {
@@ -35,7 +35,7 @@ div.titleProduct {
     font-style: italic;
     padding: 10px;
     background-color: #2F2F2F;
-    color: aliceblue;
+    color: #FFFFFF;
     text-decoration: underline;
     font-family: Amiri;
 }
@@ -55,7 +55,7 @@ div.titleProduct {
     padding: 0;
     margin: 0;
     background-color: #2F2F2F;
-    color: aliceblue;
+    color: #FFFFFF;
     font-family: 'Maitree', serif;
 }
 .headDescription {
@@ -90,7 +90,7 @@ div.titleProduct {
     justify-content: center;
     font-size: 2em;
     background-color: black;
-    color: aliceblue;
+    color: #FFFFFF;
 }
 .size {
     grid-area: 6 / 3 / 7 / 7;
