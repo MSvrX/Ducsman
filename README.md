@@ -14,7 +14,7 @@ Méthodologie de travail:
 Répartitions des tâches:
 
 - Adrien s'est occupé de la nav barre
-- Mattéo s'est occuper du footer, de son contenu et de la page contact
+- Mattéo s'est occuper du footer, de son contenu, de la page contact et de la page sav
 - Océane s'est occupée de la page à propos et a réaliser quelques maquettes.
 - Romain s'est occupé de la partie grid de la page d'accueil avec également du JavaScript.
 - Margaux s'est occupée de la page article et du README.
