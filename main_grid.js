@@ -39,7 +39,7 @@ const card =document.querySelector("gallery");
 
   
 
-// -------------------creation des carte ------------------------
+// -------------------creation des cartes ------------------------
 function newCard(name, image, prix, matière) {
   return ` <li class="profil-card">
     <a href="article.html">
