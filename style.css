@@ -319,9 +319,26 @@ html, body {
   font-size:35px;
   font-family: 'Amiri', serif;
   margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
 }
 
+.sidebar .nav-links::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 25px;
+  transform: scaleX(0);
+  background: #fff;
+}
 
+.sidebar .nav-links:hover::before {
+  transform: scaleX(1);
+}
 /* media queries */
 
 
