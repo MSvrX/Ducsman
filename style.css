@@ -101,19 +101,19 @@ main img.image_top{
   position: absolute;
   width: 25px;
   top: 5%; 
-  right: 2%; 
+  right: 5%; 
   z-index: 1; 
 }
 main a.encre{
   position: sticky;
   top: 80%;
   display: block;
-  width: 10%;
+  width: 4%;
   z-index: 10;
    
 }
 .up-arrow {
-  width:15%;
+  width:25%;
   
 }
 
