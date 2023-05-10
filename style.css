@@ -217,7 +217,7 @@ main a.encre{
     transform: translate(0);
   }
 }
-@media (max-width: 389px) {
+@media (max-width: 390px) {
   .gallery {
     padding: 0;
     grid-template-columns: minmax(auto, 100px);
@@ -394,4 +394,4 @@ position: relative;
 
 
 
-/* -----------------loading------------------- */
+
