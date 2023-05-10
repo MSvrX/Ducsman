@@ -50,7 +50,7 @@ function newCard(name, image, prix, matière) {
     <p class="profil-name">${name} ${prix}</p>
     </a>
     </div>
-    </li>`;
+    </li>`
 }
 
 

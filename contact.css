@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+form{
+    margin-left: 25%;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Maitree', serif;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.detail{
+    font-size: 15px;
+    margin-top: -2%;
+}
+
+/* FOOTER*/
+footer {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    padding: 50px;
+    margin-left: 13%;
+    margin-right: 0;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    font-family: "Maitree", serif;
+  }
+  
+  footer nav {
+    display: inline-block;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  footer a:hover {
+    color: #007bff;
+  }
+  .mon_site{
+    font-size: 12px;
+  }
+  
+  .effet1:hover {
+    transform: scale(0.9);
+  }
+  .effet2:hover {
+    transform: scale(0.9);
+  }
+  .effet3:hover {
+    transform: scale(0.9);
+  }
+
+
+
+
+
+  
+ 
+  
+  

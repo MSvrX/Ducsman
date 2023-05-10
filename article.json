@@ -1,7 +1,7 @@
 [
     {
         "name":"Veste noir",
-        "image":"/IMG/blackcoat.jpg",
+        "image":"IMG/blackcoat.jpg",
         "prix":"1500 E",
         "matière":"coton69% polyester 29%"
     },

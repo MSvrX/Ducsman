@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducsman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    
+    <main>
+        <h1>Contact</h1>
+
+        <form>
+            <label for="le_prenom">Votre prénom</label> :
+            <input type="text" name="prenom" id="le_prenom" required maxlength="150" placeholder="Prénom" autofocus><br>
+
+            <label for="le_nom">Votre nom</label> :
+            <input type="text" name="nom" id="le_nom" required maxlength="150" placeholder="Nom"><br>
+
+            <label for="le_mail">Adresse e-mail</label>:
+            <input type="email" name="mail" id="le_mail" required placeholder="Adresse e-mail"><br>
+
+            <label for="le_numero">Téléphone</label>
+            <input type="tel" name="tel" id="le_numero" required placeholder="Numéro de téléphone"><br>
+
+            <label for="votre_demande">Votre demande concerne:</label>
+            <select name="demande" id="votre_demande" >
+                <option value="selectionnez" disabled selected >Votre demande concerne</option>
+                <option value="une_commande_internet">une commande internet</option>
+                <option value="un_achat_en_magasin">un achat en magasin</option>
+                <option value="la_carte_de_fidelite">la carte de fidélité</option>
+                <option value="un_produit_de_la_collection">un produit de la collection</option>
+                <option value="entreprise">l'entreprise</option>
+            </select><br>
+
+            <label for="le_sujet">Sujet</label> :
+            <input type="text" name="sujet" id="le_sujet" required maxlength="500" placeholder="Sujet"><br>
+
+            <label for="description">Description</label>
+            <textarea name="description" id="description" placeholder="Commentaires"></textarea>
+                
+            <p class="detail" >Saisissez les détails de votre demande. Un membre de notre équipe d’assistance répondra dans les plus brefs délais.</p>
+              
+
+            <input type="submit" name="commit" value="Envoyer" class="button">
+
+        </form>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li class="effet1"><a href="mention_legale.html">Mention légales</a></li>
+                <li class="effet2"><a href="conditions_generales.html">Conditions générales de vente</a></li>
+                <li class="effet3"><a href="rgpd.html">RGPD</a></li>
+            </ul>
+        </nav>
+        <p class="mon_site">&copy; 2023 Ducsman. Tous droits réservés.</p>
+    </footer>
+
+
+
+</body>
+</html>
