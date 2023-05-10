@@ -208,7 +208,10 @@ main a.encre{
     grid-gap: 50px;
   }
   .sidebar {
-    display: none;
+    transform: translate(-90%);
+  }
+  .sidebar:hover{
+    transform: translate(0);
   }
   .profil-info,
   .image_top,
