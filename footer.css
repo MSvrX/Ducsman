@@ -77,8 +77,8 @@ body{
  
 
   .email-link {
-    color: rgb(124, 124, 240);
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
     position: relative;
   }
   
@@ -101,7 +101,7 @@ body{
     left: 0;
     right: -4%;
     content: "Contactez-nous";
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    background-image: linear-gradient(180deg, rgba(0,0,0,1) 34%, rgba(0,0,0,1) 61%, rgba(80,58,0,1) 100%);
     color: #FFFFFF;
     padding: 5px;
     border-radius: 5px;
