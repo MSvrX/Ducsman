@@ -7,18 +7,13 @@
     grid-template-columns: 250px 3fr 2fr 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr;
 }
-h1, img.imageHeader {
+img.imageHeader {
     margin-top: 0;
     padding-top: 0;
     max-height: 300px;
     width: 100%;
     object-fit: cover;
-}
-.titleHeader {
-    display: flex;
-    justify-content: center;
-    font-size: 4em;
-    align-items: center;
+    margin-left: 250px;
 }
 h2.titleProduct {
     border: 1px solid black;
@@ -36,7 +31,7 @@ div.titleProduct {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    font-size: 1.3em;
+    font-size: 2.5em;
     font-style: italic;
     padding: 10px;
     background-color: #2F2F2F;
@@ -61,6 +56,7 @@ div.titleProduct {
     margin: 0;
     background-color: #2F2F2F;
     color: aliceblue;
+    font-family: 'Maitree', serif;
 }
 .headDescription {
     font-style: italic;
@@ -85,6 +81,7 @@ div.titleProduct {
     align-items: center;
     background-color: #2F2F2F;
     color: aliceblue;
+    font-family: 'Maitree', serif;
 }
 .price {
     grid-area: 7 / 2 / 8 / 3;
@@ -115,6 +112,7 @@ strong.refTitle {
 .btn {
     margin: 15px;
     padding: 10px;
+    font-family: 'Maitree', serif;
 }
 .btn:hover {
     opacity: 0.5;
@@ -123,4 +121,5 @@ strong.refTitle {
     width: 100%;
     height: 100%;
     font-size: 1.5em;
+    font-family: 'Maitree', serif;
 }
