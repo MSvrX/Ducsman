@@ -6,20 +6,18 @@ form{
     margin-left: 25%;
     line-height: 50px;
     font-size: 20px;
+    font-family: 'Maitree', serif;
 }
 h1{
     font-size: 30px;
     text-align: center;
     margin-left: 30px;
-
-
 }
 
 .detail{
     font-size: 15px;
     margin-top: -2%;
 }
-
 
 /* FOOTER*/
 footer {
