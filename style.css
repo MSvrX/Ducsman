@@ -101,7 +101,7 @@ main img.image_top{
   position: absolute;
   width: 25px;
   top: 5%; 
-  right: 5%; 
+  right: 2%; 
   z-index: 1; 
 }
 main a.encre{
