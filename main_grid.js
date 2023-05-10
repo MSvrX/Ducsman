@@ -1,5 +1,5 @@
 
-const card =document.querySelectorAll("gallery");
+const card =document.querySelector("gallery");
 
 
 
@@ -39,7 +39,7 @@ const card =document.querySelectorAll("gallery");
 
   
 
-// -------------------creation des carte ------------------------
+// -------------------creation des cartes ------------------------
 function newCard(name, image, prix, matière) {
   return ` <li class="profil-card">
     <a href="article.html">
