@@ -1,5 +1,5 @@
 
-const card =document.querySelectorAll("gallery");
+const card =document.querySelector("gallery");
 
 
 
