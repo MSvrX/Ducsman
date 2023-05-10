@@ -120,7 +120,7 @@ main a.encre{
 .gallery {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 10px 10px 10px 200px;
+  padding: 10px 10px 10px 250px;
   display: grid;
   grid-template-columns: repeat(auto-fill, 250px);
   grid-auto-rows: 400px;
