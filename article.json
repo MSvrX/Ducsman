@@ -58,5 +58,17 @@
         "image":"IMG/whiteSuit.jpg",
         "prix":"600 E",
         "matière":"69% polyester 29% viscose "
+    },
+    {
+        "name":"costume homme",
+        "image":"IMG/blackSuit.jpg",
+        "prix":"200 E",
+        "matière":"coton69% polyester 29%"
+    },
+    {
+        "name":"Veste noir",
+        "image":"IMG/blackcoat.jpg",
+        "prix":"1500 E",
+        "matière":"coton69% polyester 29%"
     }
 ]
